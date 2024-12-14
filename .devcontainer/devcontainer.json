@@ -1,0 +1,22 @@
+{
+    "name": "DevBot Development Environment",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "forwardPorts": [
+      5173,
+      3000
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "eslint.enable": true,
+          "editor.formatOnSave": true
+        },
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "msjsdiag.vscode-react-native"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install --prefix ./client && npm install --prefix ./server"
+  }
