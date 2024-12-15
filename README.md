@@ -10,7 +10,7 @@ An application designed to help coders. This is my first application using react
 
 2. **Create the Workspace**:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL> 
+   daytona create https://github.com/supra2026/DevBot.git
    ```  
 
 3. **Navigate to server and create a .env file where you must put gemini api key**
