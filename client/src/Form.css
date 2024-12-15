@@ -13,6 +13,7 @@
 .input,
 .documentation {
   width: 100%;
+  height: auto;
   padding: 10px;
   margin-bottom: 10px;
   box-sizing: border-box;
@@ -58,7 +59,7 @@ label {
 label,
 .clear,
 .submit {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 .mrr {
   margin-right: 0.5em;
